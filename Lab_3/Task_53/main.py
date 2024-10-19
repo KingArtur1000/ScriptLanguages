@@ -45,7 +45,7 @@ def main():
         print("2. Проверить место")
         print("3. Выход")
         
-        choice = input("Выберите действие (1-3): ")
+        choice = input("\tВыберите действие (1-3): ")
         
         if choice == '1':
             print(f"Свободных мест: {count_free_seats()}")

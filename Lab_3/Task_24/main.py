@@ -3,5 +3,6 @@ with open("Task_24/artists.txt", "r") as file:
     music_groups = [line.strip() for line in file]
 
 # Выводим в консоль
+print("\tСписок групп артистов:")
 for group in music_groups:
     print(group)

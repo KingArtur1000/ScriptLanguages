@@ -20,7 +20,7 @@ def read_and_count_vowels(filename):
         # Не учитываем регистр букв
         line = line.strip().lower()
 
-        print(f"Строка №{i+1} {line}")
+        print(f"\tСтрока №{i+1} {line}")
         # Првоеряем каждое слово в строке с какой буквы оно начинается: гласной или согласной
         for word in line.split():
             if line and word[0] in 'аоуыеёиэюя':
