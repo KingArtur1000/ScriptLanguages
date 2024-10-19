@@ -1,7 +1,7 @@
 import sqlite3
 
 # Создание соединения к БД
-conn = sqlite3.connect('Task_105/films.db')
+conn = sqlite3.connect('films.db')
 cursor = conn.cursor()
 
 # Создание таблицы для фильмов, если её нету
@@ -25,7 +25,7 @@ def add_film(title, genre, release_year):
 
 def remove_film(title):
     if title in [row[0] for row in cursor.execute("SELECT title FROM films")]:
-        cursor.execute("DELETE FROM films WHERE title = ?", (title,))
+        cursor.execute("DELETE FROM films WHERE title = ?", (title))
         conn.commit()
         print(f'{title} удален из списка.')
     else:

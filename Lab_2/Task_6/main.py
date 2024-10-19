@@ -8,4 +8,4 @@ A = 8
 B = 4
 
 result = safe_divide(A, B)
-print("Результат деления - ", result)
+print("Результат деления числа ", A, " на число ", B, " = ", result)

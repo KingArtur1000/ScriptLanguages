@@ -1,6 +1,7 @@
-def find_item_in_list(lst, item):
+def find_item_in_list(list, item):
     try:
-        print(f"\nЭлемент {item} найден!\n")
+        index = list.index(item)  # Если элемент найден, index() вернёт его индекс
+        print(f"\nЭлемент {list[index]} найден!\n")
         return item
     except ValueError:
         print(f"\nЭлемент {item} НЕ найден!\n")

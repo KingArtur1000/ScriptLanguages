@@ -1,7 +1,7 @@
 def square(x):
-    return x ** 2
+    return x ** 2   # ** - возведение в степень
 
 x = 4
 result = square(x)
 
-print(result)
+print("Результат вовзедения во вторую степень числа ", x, " = ", result)

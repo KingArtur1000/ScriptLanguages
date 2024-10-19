@@ -1,10 +1,9 @@
 def get_non_empty_string(prompt):
-    while True:
-        user_input = input(prompt)
-        if user_input == "":
-            raise ValueError("Строка не должна быть пустой!")
-        else:
-            return user_input
+    user_input = input(prompt)
+    if user_input == "":
+        raise ValueError("Строка не должна быть пустой!")
+    else:
+        return user_input
 
 
 try:

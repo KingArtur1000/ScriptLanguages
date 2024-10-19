@@ -14,6 +14,7 @@ def validate_data(data):
         print(f"Произошла непредвиденная ошибка: {e}")
         return False
 
+
 validate_data({'name': 'John Doe'})  # Не должно быть никаких исключений
 validate_data({'name': 123})       # Вызовет TypeError
 validate_data({'age': 30})         # Вызовет ValueError
