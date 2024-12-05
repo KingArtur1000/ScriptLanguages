@@ -13,6 +13,6 @@ leather_water = MinVoda('Лечебная')
 common_water = MinVoda('Хлорированная (18 общежитие)')
 
 
-stool_water.show_my_drink()  # Output: Минеральная вода - столовая
-leather_water.show_my_drink()  # Output: Минеральная вода - лечебная
-common_water.show_my_drink()   # Output: Минеральная вода - обычная
+stool_water.show_my_drink()  # Output: Минеральная вода - Столовая
+leather_water.show_my_drink()  # Output: Минеральная вода - Лечебная
+common_water.show_my_drink()   # Output: Минеральная вода - Хлорированная (18 общежитие)
